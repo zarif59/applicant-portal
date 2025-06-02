@@ -1,0 +1,10 @@
+services:
+  pocketbase:
+    container_name: pocketbase-merits
+    image: ghcr.io/muchobien/pocketbase:latest
+    ports:
+      - "8090:8090"
+    volumes:
+      - ./pb:/pb_data
+# admin@gmail.com
+# admin12345
